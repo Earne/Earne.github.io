@@ -10,3 +10,10 @@ github_username:  earne
 
 disqus: earne
 analytics: UA-60719663-1
+
+#nav config
+nav:
+    - text: Home
+      url: /index.html
+    - text: About
+      url: /about/
