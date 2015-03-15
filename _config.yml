@@ -15,5 +15,11 @@ analytics: UA-60719663-1
 nav:
     - text: Home
       url: /index.html
+    - text: Archives
+      url: /archives.html
     - text: About
       url: /about/
+
+paginate: 7
+paginate_path: "/blog/page:num/"
+excerpt_separator: "\n\n"
