@@ -2,13 +2,24 @@
 title: Ernest
 email: earneyzxl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
+
 url: "http://earne.github.io" # the base hostname & protocol for your site
 twitter_username: earneyzxl
 github_username:  earne
 
 disqus: earne
 analytics: UA-60719663-1
+
+#nav config
+nav:
+    - text: Home
+      url: /index.html
+    - text: Archives
+      url: /archives.html
+    - text: About
+      url: /about/
+
+paginate: 7
+paginate_path: "/blog/page:num/"
+excerpt_separator: "\n\n"

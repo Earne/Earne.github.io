@@ -7,18 +7,24 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-        {% if page.comment %}
-            {% include disqus.html %}
-        {% endif %}
-        {% include analytics.html %}
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 blog-main">
+
+              {{ content }}
+              {% if page.comment %}
+              {% include disqus.html %}
+              {% endif %}
+              {% include analytics.html %}
+          </div>
+          <div class="col-md-3 col-sm-offset-1 blog-sidebar">
+              <div class="sidebar-module sidebar-module-inset">
+              </div>
+          </div>
       </div>
     </div>
 
-    {% include footer.html %}
-
+    <!--    {% include footer.html %} -->
   </body>
 
 </html>
